@@ -1,1 +1,1 @@
-Projeto do curso de HTML e CSS da plataforma Alura
+Projeto do Curso de HTML e CSS da plataforma Alura
