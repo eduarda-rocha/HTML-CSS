@@ -1,11 +1,11 @@
 
-body{
-    background-color: #CCC;
-}
 #banner{
     width: 100%;
 }
-
+.principal{
+    background-color: #CCC;
+    padding: 30px;
+}
 h1{
     text-align: center;
 }
@@ -18,4 +18,25 @@ p{
 }
  em strong {
      color: red;
- }
+}
+
+.beneficios{
+    background-color: #fff;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 25%;
+}
+.itens {
+    font-style: italic;
+    font-size: larger;
+}
+.imagBeneficios{
+    width: 50%;
+}
