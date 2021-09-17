@@ -52,3 +52,12 @@
 * Como ajustar o espaçamento interno do elemento, através da propriedade `padding`
 * Como ajustar o espaçamento externo do elemento, através da propriedade `margin`
 
+## Aula 5 - Listas e divisões
+---
+* Trabalhar com listas não-ordenadas e listas ordenadas
+    * Para cada um dos itens da lista, utilizamos a tag `<li>`
+* O conceito das classes no CSS
+    * Elas servem para marcar itens, só que são repetíveis
+* Como referenciar uma classe no CSS
+* Divisões de conteúdo, utilizando a tag `<div>`
+* Os comportamentos inline e block
