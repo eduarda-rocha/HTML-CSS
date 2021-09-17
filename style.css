@@ -1,3 +1,11 @@
+
+body{
+    background-color: #CCC;
+}
+#banner{
+    width: 100%;
+}
+
 h1{
     text-align: center;
 }
@@ -5,3 +13,9 @@ h1{
 p{
     text-align: center;
 }
+#missao{
+    font-size: 20px;
+}
+ em strong {
+     color: red;
+ }

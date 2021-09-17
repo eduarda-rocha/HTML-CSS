@@ -1,6 +1,6 @@
 # O que foi aprendido
 
-##  Aula 1 
+##  Aula 1 - Marcação primeiro texto 
 ---
 * Como definir o título e os parágrafos de um texto
     * Utilizando as tags `<h1>` e `<p>`
@@ -8,7 +8,7 @@
 * Como dar destaque para algumas informações do texto, deixando-as em negrito, utilizando a tag `<strong>`
 * Como dar ênfase para algumas informações do texto, deixando-as em itálico, utilizando a tag `<em>`
 
-## Aula 2
+## Aula 2 - Separando conteúdo e informações
 ---
 * A definir a estrutura básica do HTML
     *Com a tag `DOCTYPE`, definimos qual versão do HTML estamos utilizando
@@ -20,7 +20,7 @@
 * Como separar as informações que estão sendo passadas para o navegador, utilizando a tag `<head>`
 * Como separar o conteúdo da página, utilizando a tag `<body>`
 
-## Aula 3
+## Aula 3 - Trabalhando com CSS
 ---
 * A mexer na apresentação dos textos
     * No alinhamento deles (`text-align`)
@@ -40,3 +40,15 @@
     * Através do nome da cor
     * Através do seu hexadecimal
     * Através do seu RGB
+
+## Aula 4 - Estilizando imagens
+---
+* Como reestruturar o nosso código, removendo os CSS inline e colocando-os no arquivo CSS externo
+* Como criar um identificador para marcar especificamente um elemento
+    * Como fazer referência a esse identificador no CSS
+* Como adicionar uma imagem à nossa página
+* Como ajustar a altura do elemento, através da propriedade `height`
+* Como ajustar a largura do elemento, através da propriedade `width`
+* Como ajustar o espaçamento interno do elemento, através da propriedade `padding`
+* Como ajustar o espaçamento externo do elemento, através da propriedade `margin`
+
