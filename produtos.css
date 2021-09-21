@@ -71,4 +71,12 @@ nav a:hover{
     font-size: 22px;
     margin-top: 10px;
 }
+footer{
+    text-align: center;
+    background: url("imagens/bg.jpg");
+}
 
+.copyright{
+    color: #fff;
+    
+}
