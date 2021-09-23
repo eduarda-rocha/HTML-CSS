@@ -23,16 +23,37 @@
         <main>
             <form >
                 <label for="nomeSobrenome">Nome e Sobrenome</label>
-                <input type="text" id="nomeSobrenome">
+                <input type="text" id="nomeSobrenome" class="input-padrao" required>
 
                 <label for="email">Email</label>
-                <input type="text" id="email">
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
                 <label for="telefone">Telefone</label>
-                <input type="text" id="telefone">
+                <input type="tel" id="telefone"class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
 
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" cols="30" rows="10" class="input-padrao" required></textarea>
+
+                <fieldset>
+                    <legend>Como prefere nosso contato?</legend>
+                    <label for="radio-email"><input type="radio" id="radio-email" name="escolha" value="email">Email</label>
+                    <label for="radio-telefone"><input type="radio" id="radio-telefone" name="escolha" value="telefone" >Telefone</label>
+                    <label for="radio-whatsapp"><input type="radio" id="radio-whatsapp" name="escolha" value="whatsapp" checked >Whatsapp</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Qual horário gostaria de ser atendido?</legend>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
+
+                <label><input type="checkbox" class="input-checkbox" checked> Gostaria de receber nossas novidades por Email?</label>
                 <input type="submit" value="Enviar Formulário">
             </form>
+
         </main>
         <footer>
             <img src="imagens/logo-branco.png">
