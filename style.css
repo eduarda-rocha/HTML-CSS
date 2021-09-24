@@ -104,3 +104,34 @@ form label, form legend{
 .input-checkbox{
     margin: 20px 0;
 }
+
+.btn-enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: sandybrown;
+    border: none;
+    border-radius: 15px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.btn-enviar:hover{
+    background-color: #FB7506;
+    cursor: pointer;
+    transform: scale(1.15);
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #ccc;
+    font-weight: bold;
+}
+th, td{
+    border: 1px solid #000;
+    text-align: center;
+    padding: 10px 15px;
+}
