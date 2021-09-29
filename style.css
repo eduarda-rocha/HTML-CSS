@@ -56,6 +56,7 @@ nav a:hover{
 .produtos li:hover{
     border-color: #C78C19;
 }
+
 .produtos li:active{
     border-color: #088C19;
 }
@@ -63,18 +64,22 @@ nav a:hover{
 .produtos li:hover h2{
     font-size: 34px;
 }
+
 .produtos h2{
     font-weight: bold;
     font-size: 30px;    
 }
+
 .produto-descricao{
     font-size: 18px;
 }
+
 .produto-preco{
     font-weight: bold;
     font-size: 22px;
     margin-top: 10px;
 }
+
 footer{
     text-align: center;
     background: url("imagens/bg.jpg");
@@ -82,10 +87,6 @@ footer{
 
 .copyright{
     color: #fff;
-}
-
-main{
-
 }
 
 form{
@@ -104,6 +105,7 @@ form label, form legend{
     padding: 10px 20px;
     width: 50%;
 }
+
 .input-checkbox{
     margin: 20px 0;
 }
@@ -119,6 +121,7 @@ form label, form legend{
     transition: 1s all;
     cursor: pointer;
 }
+
 .btn-enviar:hover{
     background-color: #FB7506;
     cursor: pointer;
@@ -145,6 +148,7 @@ th, td{
 .banner{
     width: 100%;
 }
+
 .principal{
     background-color: #fefefe;
     padding: 3em 0;
@@ -158,12 +162,15 @@ th, td{
     margin: 0 0 1em;
     clear: left;
 }
+
 .principal p {
     margin: 0 0 1em;
 }
+
 .principal strong{
     font-weight: bold;
 }
+
 .principal em{
     font-style: italic;
 }
@@ -173,6 +180,7 @@ th, td{
     float: left;
     margin: 0 20px 20px 0 ;
 }
+
 .mapa{
     padding: 3em 0; 
     background: linear-gradient(#fefefe, #888);
@@ -203,9 +211,11 @@ th, td{
     width: 45%;
     vertical-align: top;
 }
+
 .itens:before{
     content: "➤ " ;
 }
+
 .itens{
     line-height: 1.9em;
 }
@@ -216,6 +226,12 @@ th, td{
 
 .imagem-beneficios{
     width: 55%;
+    box-shadow: 7px 7px 5px #000;
+ }
+
+ .imagem-beneficios:hover{
+    opacity: 0.75;
+    transition: 450ms;
  }
 
 .video{
